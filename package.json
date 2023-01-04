@@ -1,0 +1,30 @@
+{
+  "name": "yarn-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "npm": "=8.19.2",
+    "node": "=18.12.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "@typescript-eslint/parser": "5.36.1",
+    "eslint": "8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "typescript": "^4.9.4",
+    "prisma": "4.6.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "url": "https://github.com/trigsy/blackhole.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
